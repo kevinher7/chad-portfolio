@@ -11,8 +11,9 @@ const LandingPage = () => {
 				<Introduction />
 			</header>
 			<main className="landing-main">
-				<ProjectsHero />
-				<ProjectsHero />
+				<ProjectsHero heroTitle="Game Dev🕹️" />
+				<ProjectsHero heroTitle="WebDev 🗿" />
+				<ProjectsHero heroTitle="AI 🗿" />
 			</main>
 		</>
 	);

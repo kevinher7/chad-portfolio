@@ -17,13 +17,16 @@ h3 {
 }
 
 .project-card-tech {
+	color: var(--detail-a);
 	font: var(--project-card-tech);
 }
 
 .project-card-link {
+	font: var(--github-link);
 	color: var(--detail-b);
 }
 
 .tech-detail {
 	color: var(--light-color);
+	font-weight: 700;
 }

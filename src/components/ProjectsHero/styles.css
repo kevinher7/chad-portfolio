@@ -1,6 +1,15 @@
+.projects-hero {
+	align-items: center;
+	justify-content: center;
+	width: 80vw;
+	margin: var(--spacing-sm);
+}
+
 .project-cards {
 	display: flex;
 	flex-direction: row;
+
+	width: 80vw;
 }
 
 .project-hero-title {
