@@ -1,3 +1,5 @@
 .kevin-stats {
+	width: 35vw;
+
 	padding: var(--spacing-xxl);
 }

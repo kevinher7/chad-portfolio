@@ -5,7 +5,7 @@ const Introduction = () => {
 		<div className="introduction">
 			<h1>Hello visitor!</h1>
 			<h2>
-				I am <span className="text-detail">Kevin Hernandez</span>,
+				My name is <span className="text-detail">Kevin Hernandez</span>,
 			</h2>
 			<p>
 				and I am Physics Student who's doing some Programing on the side

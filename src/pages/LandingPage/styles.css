@@ -8,10 +8,11 @@
 
 .landing-main {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 
-	margin-block-start: var(--spacing-xxl);
+	/* margin-block-start: var(--spacing-xxl); */
+	padding: var(--spacing-xl);
 
 	width: 100vw;
 }

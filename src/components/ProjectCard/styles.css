@@ -1,0 +1,29 @@
+.project-card {
+	display: flex;
+	flex-direction: column;
+
+	margin-inline-end: var(--spacing-xxl);
+
+	width: 15rem;
+}
+
+h3 {
+	font: var(--h3);
+}
+
+.project-card-descr {
+	color: var(--detail-b);
+	font: var(--project-card-descr);
+}
+
+.project-card-tech {
+	font: var(--project-card-tech);
+}
+
+.project-card-link {
+	color: var(--detail-b);
+}
+
+.tech-detail {
+	color: var(--light-color);
+}

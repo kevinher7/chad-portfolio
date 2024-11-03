@@ -23,14 +23,20 @@
 	--dark-color: #023047;
 	--light-color: #caf0f8;
 	--detail-a: #e76f51;
-	--detail-b: #3d5a80;
+	--detail-b: #527baf;
 	--shadow-box-color: #c0b1ab;
 
 	/* Fonts */
 	--ff: "Noto Sans", sans-serif;
 	--h1: bold 4rem/1em var(--ff);
 	--h2: bold 2rem/1.2em var(--ff);
-	--p: 1rem/1.6em var(--ff);
+	--p: 1rem/2em var(--ff);
+
+	/* Project Card Fonts */
+	--h3: bold 2rem/1.8em var(--ff);
+	--project-card-descr: 1.6rem/1.4em var(--ff);
+	--project-card-tech: 1.2rem/2em var(--ff);
+	--github-link: ;
 }
 
 #root {
@@ -46,6 +52,8 @@
 	background-color: var(--dark-color);
 
 	font-family: var(--ff);
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 a {
