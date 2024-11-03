@@ -1,0 +1,17 @@
+.landing-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	width: 70vw;
+}
+
+.landing-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	margin-block-start: var(--spacing-xxl);
+
+	width: 100vw;
+}

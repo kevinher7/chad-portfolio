@@ -1,0 +1,23 @@
+.introduction {
+	width: 30vw;
+	padding: var(--spacing-xxl);
+}
+
+h1 {
+	color: white;
+	font: var(--h1);
+}
+
+h2 {
+	color: white;
+	font: var(--h2);
+}
+
+p {
+	font: var(--p);
+}
+
+.text-detail {
+	color: var(--detail-a);
+	font-weight: 900;
+}
